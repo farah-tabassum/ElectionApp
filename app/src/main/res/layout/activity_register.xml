@@ -14,11 +14,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:text="Election App"
-        android:textStyle="bold"
         android:fontFamily="sans-serif-condensed-medium"
+        android:text="Election App"
         android:textAppearance="@style/TextAppearance.AppCompat.Display3"
         android:textColor="#ecd900"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -146,8 +146,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
-        android:text="Already Registered? Login Here!"
         android:padding="8dp"
+        android:text="Already Registered? Login Here!"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#c75438"
         android:textColorHint="#FFFFFF"
@@ -164,9 +164,9 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/createText"
-        tools:visibility="invisible" />
+        app:layout_constraintTop_toBottomOf="@+id/createText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
